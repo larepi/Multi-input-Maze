@@ -2,8 +2,15 @@
 type: experiment
 enabled: false
 flag: background
+conditions:
+  - property:
+      name: rox.platform
+      operator: in-array
+      operand:
+        - value
+        - '02'
+        - '03'
+    value: true
 value:
   - percentage: 20
     option: true
-  - percentage: 80
-    option: false
