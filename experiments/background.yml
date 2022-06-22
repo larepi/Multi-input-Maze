@@ -7,8 +7,8 @@ conditions:
       operator: in-array
       operand:
         - value
-        - '02'
-        - '03'
+        - '20'
+        - '80'
     value: true
 value:
   - percentage: 20
