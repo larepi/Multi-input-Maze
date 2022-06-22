@@ -3,5 +3,7 @@ type: experiment
 enabled: false
 flag: background
 value:
-  - percentage: 50
+  - percentage: 20
     option: true
+  - percentage: 80
+    option: false
